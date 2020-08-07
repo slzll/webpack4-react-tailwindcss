@@ -1,10 +1,3 @@
-/*
- * @Author: 张棱隆
- * @Date: 2020-08-05 11:14:40
- * @LastEditors: 张棱隆
- * @LastEditTime: 2020-08-05 16:49:08
- * @Description: Do not edit
- */
 import "react-hot-loader";
 import React from "react";
 import ReactDOM from "react-dom";
