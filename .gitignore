@@ -1,0 +1,7 @@
+# dep
+node_modules
+bower_components
+
+# editor
+.idea
+.vscode

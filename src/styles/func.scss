@@ -1,0 +1,7 @@
+@function light($color, $weight) {
+  @return mix($color, $white, $weight);
+}
+
+@function dark($color, $weight) {
+  @return mix($color, $black, $weight);
+}

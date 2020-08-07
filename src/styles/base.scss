@@ -1,0 +1,30 @@
+@import "./tailwind";
+@import "./variable";
+@import "./mixin";
+
+body {
+  background: $gray-100;
+  --cursor-stroke: #000;
+  --cursor-fill: #000;
+  --cursor-stroke-width: 1px;
+}
+
+#cursor {
+  display: none;
+}
+
+@media (any-pointer: fine) {
+  #cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    pointer-events: none;
+  }
+  .cursor__inner {
+    fill: var(--cursor-fill);
+    stroke: var(--cursor-stroke);
+    stroke-width: var(--cursor-stroke-width);
+    opacity: 0.3;
+  }
+}
